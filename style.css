@@ -1,0 +1,84 @@
+* {
+    font-family: "Monserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 350mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7)
+
+}
+
+.container .one{
+    padding: 40px 20px ;
+    padding-left: 35px;
+    background-color:rgb(145, 192, 222);
+    width: 100%;
+    color: black;
+}
+
+.container .one .profile {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid lightskyblue;
+    background-image: url(pogi.jpg);
+    background-position: center top;
+    background-size: 100%;
+    border-style: outset;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-bottom: 8px;
+    
+}
+
+.container .two{
+    background-color: white;
+    padding: 40px 20px;
+    padding-right: 75px ;
+
+}
+
+.container .two .nametext{
+    font-size: 1.6em;
+    color:black;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 50px; 
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+.p-2{
+    padding-left: 20px;
+}
+
